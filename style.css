@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.wrapper {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 {
+  background-color: #1f2937;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 41vw;
+
+  justify-content: center;
+}
+.nav list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner {
+  display: flex;
+  gap: 20vw;
+}
+.bContent {
+  display: block;
+}
+
+.section2 {
+  text-align: center;
+}
+
+.section2 list {
+  list-style: none;
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+}
+.section2 img {
+  border: blue solid 2px;
+  border-radius: 10%;
+}
+
+.section3 {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10%;
+}
+
+.section4 {
+  background-color: aqua;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 2%;
+}
+
+footer {
+  text-align: center;
+}
